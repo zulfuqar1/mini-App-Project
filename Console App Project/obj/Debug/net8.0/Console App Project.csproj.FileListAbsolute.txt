@@ -1,0 +1,14 @@
+C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\bin\Debug\net8.0\Console App Project.exe
+C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\bin\Debug\net8.0\Console App Project.deps.json
+C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\bin\Debug\net8.0\Console App Project.runtimeconfig.json
+C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\bin\Debug\net8.0\Console App Project.dll
+C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\bin\Debug\net8.0\Console App Project.pdb
+C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\obj\Debug\net8.0\Console App Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\obj\Debug\net8.0\Console App Project.AssemblyInfoInputs.cache
+C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\obj\Debug\net8.0\Console App Project.AssemblyInfo.cs
+C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\obj\Debug\net8.0\Console App Project.csproj.CoreCompileInputs.cache
+C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\obj\Debug\net8.0\Console App Project.dll
+C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\obj\Debug\net8.0\refint\Console App Project.dll
+C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\obj\Debug\net8.0\Console App Project.pdb
+C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\obj\Debug\net8.0\Console App Project.genruntimeconfig.cache
+C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\obj\Debug\net8.0\ref\Console App Project.dll
