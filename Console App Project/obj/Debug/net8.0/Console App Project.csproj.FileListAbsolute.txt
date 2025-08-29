@@ -12,3 +12,7 @@ C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App P
 C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\obj\Debug\net8.0\Console App Project.pdb
 C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\obj\Debug\net8.0\Console App Project.genruntimeconfig.cache
 C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\obj\Debug\net8.0\ref\Console App Project.dll
+C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\obj\Debug\net8.0\Console App Project.sourcelink.json
+C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\obj\Debug\net8.0\Console App Project.csproj.AssemblyReference.cache
+C:\Users\zulfu\OneDrive\Desktop\Z's\Code\Tasks\Console App Project\Console App Project\obj\Debug\net8.0\Console .274F24E1.Up2Date

@@ -6,20 +6,25 @@ using System.Threading.Tasks;
 
 namespace Console_App_Project.Modles
 {
-    internal class Product
+    internal class Product: Base.IEntity
     {
-        string name {get; set;}
-        double price {get; set; }
-        int stock {get; set; }
+
+        string Name {get; set;}
+        double Price {get; set; }
+        double Stock {get; set; }
 
 
 
-        public Product()
+        public Product(string name, double price, double stock)
         {
-            
+            Name = name;
+            Price = price;
+            Stock = stock;
         }
 
-
-
+        public void PrintInfo()
+        {
+            Console.WriteLine($"ID: {id} | Name: {Name} | Price: {Price} | Stock: {Stock}");
+        }
     }
 }

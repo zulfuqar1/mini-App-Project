@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Pp2IIqK+c7E=",
+  "dgSpecHash": "NGLSy+9qMgA=",
   "success": true,
   "projectFilePath": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z's\\Code\\Tasks\\Console App Project\\Console App Project\\Console App Project.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\zulfu\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

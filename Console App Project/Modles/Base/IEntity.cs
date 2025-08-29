@@ -4,18 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Console_App_Project.Modles
+namespace Console_App_Project.Modles.Base
 {
     internal abstract class IEntity
     {
-        static int count = 0;
-        int id;
-
+        public string id { get; set; }
 
         protected IEntity()
         {
-             count++;
-            id = count;
+            id= Guid.NewGuid().ToString();
         }
+
+
     }
 }
