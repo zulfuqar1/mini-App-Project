@@ -8,43 +8,79 @@ namespace Console_App_Project.Utilities
 {
     internal static class Helper
     {
+
+        //Path Finder\\
+
+        public static string ProjectPathFinder()
+        {
+            string Path = Directory.GetCurrentDirectory();
+            for (int i = 0; i < 3; i++) 
+            {
+                Path = Directory.GetParent(Path).FullName;
+            }
+            return Path;
+        }
+
+        public static string DataFilePathFinder()
+        {
+            return Path.Combine(ProjectPathFinder(), "Data", "Product.json");
+        }
+
+
+
+
+
+
+        //======================= Method Show Menu ======================= \\
+
+        //Show Main Menu
         public static void ShowMenu()
         {
             Console.WriteLine(
-        "1.Create Product\r\n" +
-        "2.Delete Product\r\n" +
-        "3.Get Product By Id\r\n" +
-        "3.Show All Product\r\n" +
-        "4.Refill Product\r\n" +
-        "5.Order Product\r\n" +
-        "6.Shaw All Orders\r\n" +
-        "7.Change Order Status");
+        "1.Create Product\n" +
+        "2.Delete Product\n" +
+        "3.Get Product By Id\n" +
+        "3.Show All Product\n" +
+        "4.Refill Product\n" +
+        "5.Order Product\n" +
+        "6.Shaw All Orders\n" +
+        "7.Change Order Status\n\n"+
+        "0.Exit"
+        );
         }
 
-        //__--__--__--__--__ Method get user choice __--__--__--__--__\\
-        
-        //Get User Choice
-        public static int GetUserChoice()
+        //======================= Method get user choice ======================= \\
+
+
+        //Get User Yes or NO Choice
+        public static bool GetYesNoChoice()
         {
-            int choice = 0;
-            string input = null;
-            bool result = false;
-            
-            input = Console.ReadLine();
-            result = int.TryParse(input, out choice);
-            
-            if (!result)
+            string choice = Console.ReadLine().Trim().ToLower();
+            if (choice == "y" || choice == "yes")
             {
-                Console.WriteLine("Choice correct number");
+                return true;
             }
-            return choice;
+
+            else if (choice == "n" || choice == "no")
+            {
+                return false;
+            }
+
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter 'y' or 'n'.");
+                return GetYesNoChoice();
+            }
         }
+
 
         //Get String Input
         public static string GetStringInput()
         {
             return Console.ReadLine();
         }
+
+
         //Get Int Input
         public static double GetDoubleInput()
         {
@@ -56,11 +92,13 @@ namespace Console_App_Project.Utilities
             return value;
         }
 
-           public static double GetInteInput()
+
+        //Get Int Input
+        public static int GetIntInput()
         {
-            double value;
-            while (!double.TryParse(Console.ReadLine(), out value))
-            {
+            int value;
+            while (!int.TryParse(Console.ReadLine(), out value))
+            { 
                 Console.WriteLine("Please enter a valid number.");
             }
             return value;
