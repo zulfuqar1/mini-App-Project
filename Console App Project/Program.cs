@@ -13,13 +13,6 @@ namespace Console_App_Project
         {
             ManagmentApplication Run = new ManagmentApplication();
             Run.Run();
-
-
-
-
-
-
-
         }
     }
 }

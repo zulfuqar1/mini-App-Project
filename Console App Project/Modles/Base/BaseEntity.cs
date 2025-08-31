@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Console_App_Project.Modles.Base
 {
-    internal abstract class IEntity
+    internal abstract class BaseEntity
     {
         public string id { get; set; }
 
-        protected IEntity()
+        protected BaseEntity()
         {
             id= Guid.NewGuid().ToString();
         }

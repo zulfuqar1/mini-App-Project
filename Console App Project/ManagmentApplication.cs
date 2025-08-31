@@ -24,7 +24,8 @@ namespace Console_App_Project
                 switch (choice)
                 {
                     case 1:
-                        ProductService.CreateProduct();
+                        var productService = new ProductService();
+                        productService.CreateProduct();
                         break;
 
 
@@ -42,9 +43,7 @@ namespace Console_App_Project
                         string result = File.ReadAllText(Helper.DataFilePathFinder());
 
 
-                        List<Product> products = string.IsNullOrEmpty(result)
-    ? new List<Product>()
-    : JsonConvert.DeserializeObject<List<Product>>(result);
+                        List<Product> products = string.IsNullOrEmpty(result)? new List<Product>(): JsonConvert.DeserializeObject<List<Product>>(result);
 
                         if (products == null)
                         {
