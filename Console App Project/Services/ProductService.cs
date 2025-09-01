@@ -32,7 +32,7 @@ namespace Console_App_Project.Services
             Console.Clear();
 
             // Name
-            Console.WriteLine("Enter New Product name");
+            Helper.ColorfulWriteLine("Enter New Product name", ConsoleColor.Green);
 
             if (Helper.EscToCancer())
                 return;
@@ -57,14 +57,29 @@ namespace Console_App_Project.Services
 
             // Price
             Console.Clear();
-            Console.WriteLine("Enter Product Price");
-            double ProductPrice = Helper.GetDoubleInput();
+            Helper.ColorfulWriteLine("Enter Product Price", ConsoleColor.Green);
+            decimal ProductPrice;
+
+            while (true)
+            {
+                ProductPrice = Helper.IsPositiveDecilamNumber();
+
+                if (ProductPrice == 0)
+                {
+                    Console.Clear();
+                    Helper.ColorfulWriteLine("Price cannot be 0.", ConsoleColor.DarkRed);   
+                }
+                else
+                {
+                    break;
+                }
+
+            }
 
             // Stock
             Console.Clear();
-            Console.WriteLine("Enter Product Stock");
-
-            double ProductStock = Helper.GetDoubleInput();
+            Helper.ColorfulWriteLine("Enter Product Stock", ConsoleColor.Green);
+            int ProductStock = Helper.IsPositiveIntNumber();
 
             //Create Product Object
             Product product = new Product(productName, ProductPrice, ProductStock);
@@ -80,6 +95,7 @@ namespace Console_App_Project.Services
             Console.WriteLine("Product created");
             product.PrintInfo();
             Helper.Pause();
+            Console.Clear();
 
 
         }

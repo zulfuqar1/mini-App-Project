@@ -7,32 +7,40 @@
       "RelativeMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|solutionrelative:console app project\\managmentapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|c:\\users\\zulfu\\onedrive\\desktop\\z\u0027s\\code\\tasks\\console app project\\console app project\\modles\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|solutionrelative:console app project\\modles\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|c:\\users\\zulfu\\onedrive\\desktop\\z\u0027s\\code\\tasks\\console app project\\console app project\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|solutionrelative:console app project\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|c:\\users\\zulfu\\onedrive\\desktop\\z\u0027s\\code\\tasks\\console app project\\console app project\\data\\product.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|solutionrelative:console app project\\data\\product.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|c:\\users\\zulfu\\onedrive\\desktop\\z\u0027s\\code\\tasks\\console app project\\console app project\\utilities\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|solutionrelative:console app project\\utilities\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|c:\\users\\zulfu\\onedrive\\desktop\\z\u0027s\\code\\tasks\\console app project\\console app project\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|solutionrelative:console app project\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|c:\\users\\zulfu\\onedrive\\desktop\\z\u0027s\\code\\tasks\\console app project\\console app project\\utilities\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|solutionrelative:console app project\\utilities\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|c:\\users\\zulfu\\onedrive\\desktop\\z\u0027s\\code\\tasks\\console app project\\console app project\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|solutionrelative:console app project\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|c:\\users\\zulfu\\onedrive\\desktop\\z\u0027s\\code\\tasks\\console app project\\console app project\\modles\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|solutionrelative:console app project\\modles\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|c:\\users\\zulfu\\onedrive\\desktop\\z\u0027s\\code\\tasks\\console app project\\console app project\\modles\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|solutionrelative:console app project\\modles\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|c:\\users\\zulfu\\onedrive\\desktop\\z\u0027s\\code\\tasks\\console app project\\console app project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|solutionrelative:console app project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|c:\\users\\zulfu\\onedrive\\desktop\\z\u0027s\\code\\tasks\\console app project\\console app project\\modles\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|solutionrelative:console app project\\modles\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|c:\\users\\zulfu\\onedrive\\desktop\\z\u0027s\\code\\tasks\\console app project\\console app project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|solutionrelative:console app project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|c:\\users\\zulfu\\onedrive\\desktop\\z\u0027s\\code\\tasks\\console app project\\console app project\\modles\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|solutionrelative:console app project\\modles\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|c:\\users\\zulfu\\onedrive\\desktop\\z\u0027s\\code\\tasks\\console app project\\console app project\\data\\product.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82E494BD-5795-4D19-A8E4-C5F2C0C25244}|Console App Project\\Console App Project.csproj|solutionrelative:console app project\\data\\product.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 209,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,55 +58,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Utilities\\Helper.cs",
+              "RelativeDocumentMoniker": "Console App Project\\Utilities\\Helper.cs",
+              "ToolTip": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Utilities\\Helper.cs",
+              "RelativeToolTip": "Console App Project\\Utilities\\Helper.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAHkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T16:29:33.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Console App Project\\Services\\ProductService.cs",
               "ToolTip": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Services\\ProductService.cs",
               "RelativeToolTip": "Console App Project\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T15:58:45.748Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.json",
-              "DocumentMoniker": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Data\\Product.json",
-              "RelativeDocumentMoniker": "Console App Project\\Data\\Product.json",
-              "ToolTip": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Data\\Product.json",
-              "RelativeToolTip": "Console App Project\\Data\\Product.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAADPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-30T18:28:21.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "Console App Project\\Repository\\Repository.cs",
-              "ToolTip": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Repository\\Repository.cs",
-              "RelativeToolTip": "Console App Project\\Repository\\Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Modles\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Console App Project\\Modles\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Modles\\OrderItem.cs",
+              "RelativeToolTip": "Console App Project\\Modles\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T16:28:01.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T15:02:52.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Modles\\Product.cs",
               "RelativeDocumentMoniker": "Console App Project\\Modles\\Product.cs",
               "ToolTip": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Modles\\Product.cs",
               "RelativeToolTip": "Console App Project\\Modles\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T11:45:10.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T11:45:10.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "Console App Project\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Repository\\Repository.cs",
+              "RelativeToolTip": "Console App Project\\Repository\\Repository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-31T16:28:01.786Z"
             },
             {
               "$type": "Document",
@@ -108,27 +126,38 @@
               "RelativeDocumentMoniker": "Console App Project\\ManagmentApplication.cs",
               "ToolTip": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\ManagmentApplication.cs",
               "RelativeToolTip": "Console App Project\\ManagmentApplication.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAgwHMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-29T15:16:19.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Helper.cs",
-              "DocumentMoniker": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Utilities\\Helper.cs",
-              "RelativeDocumentMoniker": "Console App Project\\Utilities\\Helper.cs",
-              "ToolTip": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Utilities\\Helper.cs",
-              "RelativeToolTip": "Console App Project\\Utilities\\Helper.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAAAKUAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Program.cs",
+              "RelativeDocumentMoniker": "Console App Project\\Program.cs",
+              "ToolTip": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Program.cs",
+              "RelativeToolTip": "Console App Project\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T16:07:47.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T11:40:41.127Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Modles\\Order.cs",
+              "RelativeDocumentMoniker": "Console App Project\\Modles\\Order.cs",
+              "ToolTip": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Modles\\Order.cs",
+              "RelativeToolTip": "Console App Project\\Modles\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T15:21:25.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Modles\\Base\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Console App Project\\Modles\\Base\\BaseEntity.cs",
@@ -136,20 +165,19 @@
               "RelativeToolTip": "Console App Project\\Modles\\Base\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T16:33:42.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T16:33:42.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Program.cs",
-              "RelativeDocumentMoniker": "Console App Project\\Program.cs",
-              "ToolTip": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Program.cs",
-              "RelativeToolTip": "Console App Project\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T11:40:41.127Z"
+              "DocumentIndex": 9,
+              "Title": "Product.json",
+              "DocumentMoniker": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Data\\Product.json",
+              "RelativeDocumentMoniker": "Console App Project\\Data\\Product.json",
+              "ToolTip": "C:\\Users\\zulfu\\OneDrive\\Desktop\\Z\u0027s\\Code\\Tasks\\Console App Project\\Console App Project\\Data\\Product.json",
+              "RelativeToolTip": "Console App Project\\Data\\Product.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-30T18:28:21.507Z"
             }
           ]
         }

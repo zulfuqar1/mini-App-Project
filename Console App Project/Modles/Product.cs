@@ -12,13 +12,13 @@ namespace Console_App_Project.Modles
         [JsonProperty]
         public string Name {get; set;}
         [JsonProperty]
-        public double Price {get; set;}
+        public decimal Price {get; set;}
         [JsonProperty]
-        public  double Stock {get; set;}
+        public  int Stock {get; set;}
 
 
 
-        public Product(string name, double price, double stock): base()
+        public Product(string name, decimal price, int stock): base()
         {
             Name = name;
             Price = price;

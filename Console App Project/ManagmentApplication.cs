@@ -113,7 +113,8 @@ namespace Console_App_Project
                         Console.Clear();
                         break;
                     default:
-                        Console.WriteLine("Invalid choice. Please try again.");
+                        Console.Clear();
+                        Helper.ColorfulWriteLine("Invalid choice. Please try again.", ConsoleColor.Red);
                         break;
 
                 }

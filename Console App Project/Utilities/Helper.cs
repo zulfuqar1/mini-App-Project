@@ -113,7 +113,7 @@ namespace Console_App_Project.Utilities
 
             else
             {
-                Console.WriteLine("Invalid input. Please enter 'y' or 'n'.");
+                ColorfulWriteLine("Invalid input. Please enter 'Yes' or 'No' ", ConsoleColor.DarkRed);
                 return GetYesNoChoice();
             }
         }
@@ -125,19 +125,18 @@ namespace Console_App_Project.Utilities
             while (string.IsNullOrWhiteSpace(value))
             {
                 value = Console.ReadLine();
-
-                Console.WriteLine("Please enter a valid String.");
+                ColorfulWriteLine("Please enter a valid String.", ConsoleColor.DarkRed);
             }
             return value;
         }
 
-        //Get Int Input
-        public static double GetDoubleInput()
+        //Get Decimal Input
+        public static decimal GetDecimalInput()
         {
-            double value;
-            while (!double.TryParse(Console.ReadLine(), out value))
+            decimal value;
+            while (!decimal.TryParse(Console.ReadLine(), out value))
             {
-                Console.WriteLine("Please enter a valid number.");
+                ColorfulWriteLine("Please enter a valid number.", ConsoleColor.DarkRed);
             }
             return value;
         }
@@ -148,10 +147,62 @@ namespace Console_App_Project.Utilities
             int value;
             while (!int.TryParse(Console.ReadLine(), out value))
             {
-                Console.WriteLine("Please enter a valid number.");
+                ColorfulWriteLine("Please enter a valid number.", ConsoleColor.DarkRed);
+
             }
             return value;
         }
+ 
+
+
+
+
+
+        //--------- Check Input Methods ---------\\
+
+
+        //Check Email Validity
+
+
+        //public static bool IsValidEmail(string email)
+        //{
+        //    return email.Contains("@") && email.Contains(".");
+        //}
+
+        //Check Positive Number
+        public static decimal IsPositiveDecilamNumber()
+        {
+            while (true)
+            {
+                decimal value = GetDecimalInput();
+                if (value < 0)
+                {
+                    Console.Clear();
+                    ColorfulWriteLine("Invalid input. Please enter a positive number.", ConsoleColor.DarkRed);
+                }
+                else
+                    return value;
+
+            }
+        }
+
+        public static int IsPositiveIntNumber()
+        {
+            while (true)
+            {
+                int value = GetIntInput();
+                if (value < 0)
+                {
+                    Console.Clear();
+                    ColorfulWriteLine("Invalid input. Please enter a positive number.", ConsoleColor.DarkRed);
+                }
+                else
+                    return value;
+            }
+        }
+
+
+
         //Json Reader
         public static string ReadJson(string path)
         {
