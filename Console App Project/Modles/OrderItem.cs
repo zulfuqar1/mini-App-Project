@@ -13,7 +13,7 @@ namespace Console_App_Project.Modles
         public decimal Price { get; set; }
         public decimal SubTotal => Price * Count;
 
-        public OrderItem(Product product, int count, decimal price,decimal subtotal):base()
+        public OrderItem(Product product, int count, decimal price):base()
         {
             Product = product;
 
@@ -21,6 +21,7 @@ namespace Console_App_Project.Modles
             
             Price = price;
         }
+
     }
 }
 

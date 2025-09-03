@@ -11,9 +11,6 @@ namespace Console_App_Project.Repository
 {
     internal class Repository <T> where T : BaseEntity
     {
-
-
-
         //Generic Method to Serialize any type of object to JSON and save to file
         public  void SerializeJson(string path,List<T> items)
         {

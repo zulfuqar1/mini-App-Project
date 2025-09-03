@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Console_App_Project.Utilities;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,7 +28,21 @@ namespace Console_App_Project.Modles
 
         public void PrintInfo()
         {
-            Console.WriteLine($"ID: {id} | Name: {Name} | Price: {Price} | Stock: {Stock}");
+            Helper.ColorfulWriteLine("\n╠══════════════════════════════════════════════════════════════════╣",
+              ConsoleColor.DarkMagenta);
+
+            Helper.ColorfulWrite("ID: ", ConsoleColor.Green);
+            Helper.ColorfulWriteLine(Id, ConsoleColor.Cyan);
+
+            Helper.ColorfulWrite("Name: ", ConsoleColor.Green);
+            Helper.ColorfulWrite(Name, ConsoleColor.Cyan);
+
+            Helper.ColorfulWrite(" | Price:", ConsoleColor.Green);
+            Helper.ColorfulWriteLine($"{Price}", ConsoleColor.Cyan);
+
+            Helper.ColorfulWrite(" | Stock:", ConsoleColor.Green);
+            Helper.ColorfulWriteLine($"{Stock}", ConsoleColor.Cyan);
+
         }
     }
 }

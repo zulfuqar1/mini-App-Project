@@ -8,11 +8,11 @@ namespace Console_App_Project.Modles.Base
 {
     internal abstract class BaseEntity
     {
-        public string id { get; set; }
+        public string Id { get; set; }
 
         protected BaseEntity()
         {
-            id= Guid.NewGuid().ToString();
+            Id= Guid.NewGuid().ToString();
         }
 
 

@@ -6,119 +6,128 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Console_App_Project
 {
     internal class ManagmentApplication
     {
+
+
+
+
         public void Run()
         {
+            var userService = new UserService();
+            var productService = new ProductService();
+            var orederService = new OrderService();
+            Helper.LogoMini();
+
+
+            Helper.ColorfulWrite("Enter Account Name: ", ConsoleColor.Cyan);
+            string name = Helper.GetStringInput();
+            name = name.ToUpper();
+
+            Helper.ColorfulWrite("Enter Account Email: ", ConsoleColor.Cyan);
+            string email = Helper.GetStringInput();
+
+            while (!userService.CehckUser(name, email))
+            {
+                Console.Clear();
+                Helper.LogoMini();
+                Helper.ColorfulWriteLine("\n-------------------------------------------------------------------------------------",
+                ConsoleColor.DarkMagenta);
+
+                Helper.ColorfulWriteLine("An account with this email already exists. Please use another one.", ConsoleColor.DarkRed);
+
+                Helper.ColorfulWrite("Enter Account Name: ", ConsoleColor.Cyan);
+                name = Helper.GetStringInput().ToUpper();
+
+                Helper.ColorfulWrite("Enter Account Email: ", ConsoleColor.Cyan);
+                email = Helper.GetStringInput();
+            }
+            if(userService.CehckUser(name, email))
+            {
+                userService.VerificationSender(name, email);
+            }
+            Console.Clear();
+
             while (true)
             {
+                
+                Helper.Logo();
                 Helper.ShowMenu();
 
-                int choice = Helper.GetIntInput();
-
-                switch (choice)
+                switch (Helper.GetIntInput())
                 {
                     case 1:
-                        var productService = new ProductService();
+                        //Create Product
                         productService.CreateProduct();
                         break;
-
-
                     case 2:
-                        Console.WriteLine("2 key is ready");
-                        Console.WriteLine("Press any key to continue...");
-
-   
-                        Console.ReadKey(true);
+                        //Delete Product
+                        productService.DeleteProduct();
                         break;
-                    
-                    
                     case 3:
-                        Console.WriteLine("3");
-                        string result = File.ReadAllText(Helper.DataFilePathFinder());
-
-
-                        List<Product> products = string.IsNullOrEmpty(result)? new List<Product>(): JsonConvert.DeserializeObject<List<Product>>(result);
-
-                        if (products == null)
-                        {
-                            Console.WriteLine("Deserialize null döndü");
-                            products = new List<Product>();
-                        }
-                        else
-                        {
-                            Console.WriteLine("Deserialize başarılı, count: " + products.Count);
-                        }
-
-                        string json = JsonConvert.SerializeObject(products);
-                        Console.WriteLine("Dosyaya yazılacak JSON: " + json);
-                        File.WriteAllText(Helper.DataFilePathFinder(), json);
-
-
-
-
-
-
-
-
-                        Console.WriteLine("Okunan JSON: " + result);
-                        Console.WriteLine("Press any key to continue...");
-                        Console.ReadKey(true);
+                        //Get Product By Id
+                        productService.GetProductById();
                         break;
-                    
-                    
                     case 4:
-                        Console.WriteLine("4");
-                        Console.WriteLine("Press any key to continue...");
-                        Console.ReadKey(true);
-                        break;
-                    
-                    
-                    case 5:
-                        Console.WriteLine("5");
-                        Console.WriteLine("Press any key to continue...");
-                        Console.ReadKey(true);
-                        break;
-                    
-                    
-                    case 6:
-                        Console.WriteLine("6");
-                        Console.WriteLine("Press any key to continue...");
-                        Console.ReadKey(true);
-                        break;
-                    
-                    
-                    case 7:
-                        Console.WriteLine("7");
-                        Console.WriteLine("Press any key to continue...");
-                        Console.ReadKey(true);
-                        break;
-                    
-                    
-                    case 0:
+                        //Show All Products
                         Console.Clear();
-                        Console.WriteLine("Are you sure you want to exit the application ? (Y/N)");
+                        productService.ShowAllProducts();
+                        Helper.Pause();
+                        Console.Clear();
+                        break;
+                    case 5:
+                        productService.RefilProducts();
+
+                        break;
+                    case 6:
+                        productService.RemoveProduct();
+
+                        break;
+                    case 7:
+                        //Order Product
+                        orederService.OrderProduct(email);
+                        break;
+
+                    case 8:
+                        //Show all Product
+                        orederService.ShowAllOrders();
+                        break;
+
+                    case 9:
+                        orederService.ChangeStatus();
+                        break;
+
+
+                    case 0:
+                        //Exit
+                        Console.Clear();
+                        Helper.ColorfulWriteLine("Are you sure you want to exit the application ? :(",ConsoleColor.Yellow);
 
                         if (Helper.GetYesNoChoice())
                         {
                             Console.Clear();
-                            Console.WriteLine("Exiting the application. Goodbye!");
+                            Helper.ColorfulWriteLine("Exiting the application. Goodbye!", ConsoleColor.Red);
                             return;
                         }
                         Console.Clear();
                         break;
+
                     default:
+                        //Defoult
                         Console.Clear();
                         Helper.ColorfulWriteLine("Invalid choice. Please try again.", ConsoleColor.Red);
                         break;
-
                 }
             }
         }
+
     }
 }
